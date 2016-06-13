@@ -1,0 +1,15 @@
+version: '2'
+services:
+  web1:
+    build: web1/
+
+  web2:
+    build: web2/
+
+  nginx:
+    build: nginx/
+    links:
+      - web1
+      - web2
+    ports:
+      - "80:80"
