@@ -6,10 +6,13 @@ services:
   web2:
     build: web2/
 
+  php52:
+    build: php52/
+
+  php70:
+    build: php70/
+
   nginx:
     build: nginx/
-    links:
-      - web1
-      - web2
     ports:
       - "80:80"
