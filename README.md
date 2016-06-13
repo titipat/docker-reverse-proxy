@@ -10,7 +10,7 @@ run a command
 docker-compose up
 ```
 
-then visit our micro-service web at
+then visit micro-service sites at
 
 * web1 `your-ip-address/web1/`
 * web2 `your-ip-address/web2/`
